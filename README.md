@@ -14,6 +14,6 @@ This repository is for the Web Development project.
 5. Custom Routing -> /o instead of /organization
 6. AJAX -> Database mein search karnay pe sirf table load hoga, not the entire page
 7. Caching ->
-8. Cookies -> User NAme save karega
+8. Cookies -> User Name save karega
 9. CSS -> bootstrap themes
-10. Public/Authorized Access -> 
+10. Public/Authorized Access -> Only organization and admin will be able to access the database
