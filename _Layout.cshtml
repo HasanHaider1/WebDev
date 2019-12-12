@@ -1,6 +1,4 @@
-
-<!--HI! This is a comment. Please remove this when seen.-->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -19,16 +17,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Dyslexic Combat System", "Index", "Home",new { area = "" }, new { @class = "navbar-brand" })
+              @Html.ActionLink("Dyslexic Combat System", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Care Taker", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Organization", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Admin", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Care Taker", "CareTaker", "Home")</li>
+                    <li>@Html.ActionLink("Organization", "Organization", "Home")</li>
+                    <li>@Html.ActionLink("Admin", "Admin", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
