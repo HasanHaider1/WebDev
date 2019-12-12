@@ -1,0 +1,3 @@
+server explorer -> default connection -> tables -> AspNetuserRoles
+
+Make Admins and organization in this table according to userid and roleid
