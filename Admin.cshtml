@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2></h2>
+
+<div>
+    @Html.ActionLink("List of Organizations", "Index", "School")
+</div>
+
+<button id="btn1">Line</button><br />
+<button id="btn2">Pie</button><br />
+<button id="btn3">spline</button><br />
+<button id="btn4">area</button> <br />
+
+<div id="chartContainer1" style="width: 45%; height: 300px;display: inline-block;"></div>
+<div id="chartContainer2" style="width: 45%; height: 300px;display: inline-block;"></div><br />
+<div id="chartContainer3" style="width: 45%; height: 300px;display: inline-block;"></div>
+<div id="chartContainer4" style="width: 45%; height: 300px;display: inline-block;"></div>
+
+<script type="text/javascript" async="async">
+ //Async wali cheez se AJAX ho raha hy https://www.w3schools.com/tags/tag_script.asp
+
+		btn1.onclick = function () {
+			var chart = new CanvasJS.Chart("chartContainer1", {
+				theme: "light2",
+				animationEnabled: true,
+				title: {
+					text: "Data from HomeController"
+				},
+
+				data: [
+				{
+					type: "line", //change type to bar, line, area, pie, etc
+					dataPoints: @Html.Raw(ViewBag.DataPoints),
+				}
+				]
+			});
+			chart.render();
+        };
+        btn2.onclick = function () {
+			var chart1 = new CanvasJS.Chart("chartContainer2", {
+				theme: "light2",
+				animationEnabled: true,
+				title: {
+					text: "Data from HomeController"
+				},
+
+				data: [
+				{
+					type: "pie", //change type to bar, line, area, pie, etc
+                    showInLegend: true,
+                    toolTipContent: "{name}: <strong>{y}%</strong>",
+                    startAngle: -45,
+                    indexLabel: "{name} ({y}%)",
+                    indexLabelFontColor: "#12122B",
+                    indexLabelPlacement: "inside",
+                    indexLabelFontSize: 15,
+                    dataPoints: @Html.Raw(ViewBag.DataPoints),
+				}
+				]
+			});
+			chart1.render();
+        };
+        btn3.onclick = function () {
+			var chart = new CanvasJS.Chart("chartContainer3", {
+				theme: "light2",
+				animationEnabled: true,
+				title: {
+					text: "Data from HomeController"
+				},
+
+				data: [
+				{
+					type: "spline", //change type to bar, line, area, pie, etc
+					dataPoints: @Html.Raw(ViewBag.DataPoints),
+				}
+				]
+			});
+			chart.render();
+        };
+        btn4.onclick = function () {
+			var chart = new CanvasJS.Chart("chartContainer4", {
+				theme: "light2",
+				animationEnabled: true,
+				title: {
+					text: "Data from HomeController"
+				},
+
+				data: [
+				{
+					type: "area", //change type to bar, line, area, pie, etc
+					dataPoints: @Html.Raw(ViewBag.DataPoints),
+				}
+				]
+			});
+			chart.render();
+        };
+
+</script>
+
+
+
+
