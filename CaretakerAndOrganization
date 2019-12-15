@@ -1,0 +1,2 @@
+The latest project with Caretaker static page, the organization page with all logical features. For instance, each school can only add or edit or view its own teachers or student data. in the student personal page, only if currentlystudying is false can they input nextschool.
+
