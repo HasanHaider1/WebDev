@@ -1,11 +1,10 @@
 # WebDev
-This repository is for the Web Development project.
-1. In case of any commits, please mention what you changed in the description.
-2. ASP.net MVC is used.
-3. The project details should contain description of everything that needs to be installed in order to run the project.
-4. In order to run the project, you need:
-            1. Visual Studio (2017 or higher)- with ASP. Net MVC framework installed.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## How to run the project:
+Step 1: Go to Final Updates file.
+Step 2: Click on the last link.
+Step 3: Download the zip folder.
+Step 4: Extract the folder.
+Step 5: Run the solution.
                                     FEATURES AVAILABLE
 1. Browser-based App -> default
 2. ASP.net MVC -> default
