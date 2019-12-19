@@ -8,13 +8,13 @@
 6. Run the solution using viusal studio (2015 or higher).
 
                                     FEATURES AVAILABLE
-1. Browser-based App -> default
-2. ASP.net MVC -> default
-3. ASP.net Web API -> default
-4. LINQ -> Oragnization Part (querying the database)
-5. Custom Routing -> /o instead of /organization
-6. AJAX -> Database mein search karnay pe sirf table load hoga, not the entire page
-7. Caching -> Storing student personal data for 60sec
-8. Cookies -> User Name save karega
-9. CSS -> bootstrap themes
-10. Public/Authorized Access -> Only organization and admin will be able to access the database
+1. Browser-based App
+2. ASP.net MVC 
+3. ASP.net Web API 
+4. LINQ 
+5. Custom Routing 
+6. AJAX 
+7. Caching
+8. Cookies
+9. CSS
+10. Public/Authorized Access
