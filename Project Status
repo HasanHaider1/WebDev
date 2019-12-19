@@ -1,0 +1,18 @@
+Name of the system: Dyslexic Combat System
+Project by: Syed Muhammad Hasan Haider and Maham Zehra
+Proposal: A client relationship management system to facilitate humans, all ages, facing dyslexia. There will be two modules to the project, the research system and schooling system. The research management system would have the research papers and studies regarding dyslexia and the general advises (that are on internet). This would also have contact information of Doctors and Psychologists specialized in this. It will also include helpful videos or games that help in improving the life of such people. The schooling management module would have attendance management system, report card generation, Learning Milestones, Syllabus, finance, and contact information and links to the websites of NGOs that have been working for the education of dyslexic kids and adults.
+Completion status: For the project, we contacted the organization Hussaini Foundation to get an outline of the data they stored and found out that they only stored the history of a child, its classroom behavior, and school progress. Since organization provides free services, they do not save finance details either. We followed the exact same pattern, but if we were to include attendance or finance, it would not be much hassle; we would just create the table in the database and let the entity framework do most of the work. The rest of the project defined in the proposal has been completed.
+Requirements fulfilled:
+All requirements have been implemented.
+1.	Browser based app: Default
+2.	ASP.NET MVC: Default
+3.	ASP.NET API: Hasan Haider
+4.	LINQ Queries: Maham Zehra
+5.	Custom Routing: Hasan Haider
+6.	AJAX: Hasan Haider
+7.	Caching: Maham Zehra
+8.	Cookies: Maham Zehra
+9.	CSS: Hasan Haider and Maham Zehra
+10.	Public Authorized Access: Maham Zehra
+
+
