@@ -14,7 +14,7 @@
 4. LINQ -> Oragnization Part (querying the database)
 5. Custom Routing -> /o instead of /organization
 6. AJAX -> Database mein search karnay pe sirf table load hoga, not the entire page
-7. Caching ->
+7. Caching -> Storing student personal data for 60sec
 8. Cookies -> User Name save karega
 9. CSS -> bootstrap themes
 10. Public/Authorized Access -> Only organization and admin will be able to access the database
