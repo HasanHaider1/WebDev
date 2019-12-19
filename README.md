@@ -4,7 +4,8 @@ Step 1: Go to Final Updates file.
 Step 2: Click on the last link.
 Step 3: Download the zip folder.
 Step 4: Extract the folder.
-Step 5: Run the solution.
+Step 5: Recover the database using the .bak. 
+Step 6: Run the solution using viusal studio (2015 or higher).
                                     FEATURES AVAILABLE
 1. Browser-based App -> default
 2. ASP.net MVC -> default
